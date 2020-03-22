@@ -1,0 +1,29 @@
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8em;
+  padding: 0 10px;
+  color: var(--contrast-color);
+  background-color: var(--contrast-bg-color);
+  .logo {
+    padding: 5px;
+    .author {
+      font-size: 0.7em;
+      float: right;
+    }
+  }
+  .side-links {
+    a {
+      padding: 0px 10px;
+      &:hover {
+        color: var(--hover-link-color);
+        transition-duration: 300ms;
+      }
+    }
+  }
+  .logo,
+  .side-links a {
+    color: var(--contrast-color);
+  }
+}
